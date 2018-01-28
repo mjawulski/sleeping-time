@@ -1,0 +1,13 @@
+.sleep-container {
+  margin: 20px auto;
+  max-width: 300px;
+  text-align: center;
+}
+
+.minute-buttons-container {
+  text-align: center;
+}
+
+.minute {
+  margin: 10px 5px;
+}

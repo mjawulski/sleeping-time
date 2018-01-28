@@ -1,0 +1,13 @@
+<div class="sleep-container">
+  <mat-card>
+    <h4>Śpi już od 56 minut.</h4>
+    Jeśli wstanie, naciśnij odpowiedni przycisk.
+    <br/>Kiedy wstała?
+    <div class="minute-buttons-container">
+      <button mat-raised-button color="accent" class="minute">Teraz</button>
+    </div>
+    <div *ngFor="let minutes of minutesAgo" class="minute-buttons-container">
+      <button mat-raised-button color="accent" class="minute">{{minutes}} min. temu</button>
+    </div>
+  </mat-card>
+</div>
